@@ -6,7 +6,9 @@ Minimum requirement is Microsoft Access 2010.
 
 1. Fork this repo https://github.com/peterennis/aegit_Template
 2. Clone it
-3. In the project folder run the file **aegit_Template.accdb**
+3. In the project folder rename the file **aegit_Template.accd** to **aegit_Template.accdb** and run the file **aegit_Template.accdb**
+	1. The file **.gitignore** is set to ignore **accdb** files so this work around allows the template file to be available.
+	2. Delete all the files in the **.\src** and **.\src\xml** folders. Do NOT delete the folders. This will manually reset the project.
 4. Open the module **aebasTEST_aegit_expClass** in the VBA editor
 5. Run the command **aegit_Template_EXPORT**
 7. Run Compact and Repair (Make a backup copy of the dbs: Ctr-C, Ctrl-V) 
