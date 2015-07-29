@@ -17,6 +17,8 @@ Minimum requirement is Microsoft Access 2010.
 
 To use in your own database import module **aebasTEST_aegit_expClass** and
 the class module **aegit_expClass**. Adjust the public constants that define the path to your project as appropriate.
+
+**NOTE:** The class is configured to EXCLUDE the aegit files from export.
   
 **NOTE:** Your initial commit of changes will look similar to this
 [Second Commit](https://github.com/peterennis/aegit_Template/commit/dd71ff55a71372abcbeadec7ce250f09ff4ad6bd)
