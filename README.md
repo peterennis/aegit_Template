@@ -5,7 +5,7 @@ This is assuming you have already setup a GitHub account.
 Minimum requirement is Microsoft Access 2010.
 
 1. Fork this repo https://github.com/peterennis/aegit_Template
-2. Clone it under the folder **C:\ae**
+2. Clone it
 3. In the project folder rename the file **aegit_Template.accd** to **aegit_Template.accdb** and run the file **aegit_Template.accdb**
 	1. The file **.gitignore** is set to ignore **accdb** files so this work around allows the template file to be available.
 4. Open the module **aebasTEST_aegit_expClass** in the VBA editor
@@ -16,7 +16,7 @@ Minimum requirement is Microsoft Access 2010.
 10. Edit, Export, Compact (Backup), Commit, Rinse & Repeat
 
 To use in your own database import module **aebasTEST_aegit_expClass** and
-the class module **aegit_expClass**. Adjust the public constants that define the path to your project as appropriate.
+the class module **aegit_expClass**. Adjust the public constants that define the path to your project as appropriate. The default values will export data in the project folder that was selected when cloning.
 
 **NOTE:** The class is configured to EXCLUDE the aegit files from export.
   
