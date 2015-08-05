@@ -320,23 +320,24 @@ Begin Form
                     LayoutCachedHeight =1380
                 End
                 Begin Label
-                    OverlapFlags =85
+                    OverlapFlags =247
                     TextAlign =2
-                    Left =1485
+                    Left =1110
                     Top =540
-                    Width =3555
+                    Width =4305
                     Height =300
                     BorderColor =8355711
                     ForeColor =8355711
                     Name ="Label1"
-                    Caption ="frm_Dummyppppp"
+                    Caption ="frm_Dummyppppp
+N^ÿYHWH	ÿ/f¹r*YYe"
                     GUID = Begin
                         0xdd9665229cb1e846beabc53feb801470
                     End
                     GridlineColor =10921638
-                    LayoutCachedLeft =1485
+                    LayoutCachedLeft =1110
                     LayoutCachedTop =540
-                    LayoutCachedWidth =5040
+                    LayoutCachedWidth =5415
                     LayoutCachedHeight =840
                 End
             End
