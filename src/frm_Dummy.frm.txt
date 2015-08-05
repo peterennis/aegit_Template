@@ -12,8 +12,8 @@ Begin Form
     Width =8884
     DatasheetFontHeight =11
     ItemSuffix =2
-    Right =21870
-    Bottom =12165
+    Right =17340
+    Bottom =12060
     DatasheetGridlinesColor =14806254
     RecSrcDt = Begin
         0x79c31af5b448e440
@@ -322,21 +322,21 @@ Begin Form
                 Begin Label
                     OverlapFlags =85
                     TextAlign =2
-                    Left =1500
+                    Left =1485
                     Top =540
-                    Width =1320
+                    Width =3555
                     Height =300
                     BorderColor =8355711
                     ForeColor =8355711
                     Name ="Label1"
-                    Caption ="frm_Dummy"
+                    Caption ="frm_Dummyppppp"
                     GUID = Begin
                         0xdd9665229cb1e846beabc53feb801470
                     End
                     GridlineColor =10921638
-                    LayoutCachedLeft =1500
+                    LayoutCachedLeft =1485
                     LayoutCachedTop =540
-                    LayoutCachedWidth =2820
+                    LayoutCachedWidth =5040
                     LayoutCachedHeight =840
                 End
             End
