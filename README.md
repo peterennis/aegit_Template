@@ -19,7 +19,7 @@ Minimum requirement is Microsoft Access 2010.
 9. Commit and push the changes to GitHub
 10. Edit, Export, Compact (Backup), Commit, Rinse & Repeat
 
-##Using aegit with your own database
+## Using aegit with your own database
 
 1. import module **aebasChangeLog_aegit_expClass** and **aebasTEST_aegit_expClass**, and also the class module **aegit_expClass**. 
 2. Adjust the public constants that define the path to your project as appropriate. The default values will export data in the project folder that was selected when cloning.
