@@ -1,21 +1,21 @@
-_tblPersist
-              id             0            
-              persist        109          TextBox
-aeItems
-              Item           109          TextBox
-              Quantity       109          TextBox
-              Status         109          TextBox
-              YNO            110          ListBox
-              CHK            106          CheckBox
-              CBO            111          ComboBox
-aetblThisTableHasSomeReallyLongNameButItCouldBeMuchLonger
-              id             111          ComboBox
-              Desc           109          TextBox
-              Description    109          TextBox
-aetlkpStates
-              StateCode      109          TextBox
-              StateAbbreviation            109          TextBox
-              StateName      109          TextBox
+[_tblPersist]
+              [id]           0            
+              [persist]      109          TextBox
+[aeItems]
+              [Item]         109          TextBox
+              [Quantity]     109          TextBox
+              [Status]       109          TextBox
+              [YNO]          110          ListBox
+              [CHK]          106          CheckBox
+              [CBO]          111          ComboBox
+[aetblThisTableHasSomeReallyLongNameButItCouldBeMuchLonger]
+              [id]           111          ComboBox
+              [Desc]         109          TextBox
+              [Description]  109          TextBox
+[aetlkpStates]
+              [StateCode]    109          TextBox
+              [StateAbbreviation]          109          TextBox
+              [StateName]    109          TextBox
 Count of Check box = 1
 Count of Text box  = 9
 Count of List box  = 1

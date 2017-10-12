@@ -1,0 +1,4 @@
+[_tblPersist] False
+[aeItems]     False
+[aetblThisTableHasSomeReallyLongNameButItCouldBeMuchLonger]           False
+[aetlkpStates]              False

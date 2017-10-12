@@ -25,7 +25,7 @@
               DatasheetGridlinesThemeColorIndex          3 
               DatasheetForeThemeColorIndex               0 
               PublishToWeb   1 
-              GUID          7F-0F-CB-EE-9F-52-47-B3
+              GUID          GUID
               NameMap       Track name AutoCorrect info is ON!
 >>>aeItems
               Name          aeItems
@@ -54,7 +54,7 @@
               DatasheetGridlinesThemeColorIndex          3 
               DatasheetForeThemeColorIndex               0 
               PublishToWeb   1 
-              GUID          54-FC-7F-3C-2D-97-4D-85
+              GUID          GUID
               NameMap       Track name AutoCorrect info is ON!
 >>>aetblThisTableHasSomeReallyLongNameButItCouldBeMuchLonger
               Name          aetblThisTableHasSomeReallyLongNameButItCouldBeMuchLonger
@@ -83,7 +83,7 @@
               DatasheetGridlinesThemeColorIndex          3 
               DatasheetForeThemeColorIndex               0 
               PublishToWeb   1 
-              GUID          E9-D0-34-DA-91-5D-4A-97
+              GUID          GUID
               NameMap       Track name AutoCorrect info is ON!
 >>>aetlkpStates
               Name          aetlkpStates
@@ -113,7 +113,7 @@
               DatasheetGridlinesThemeColorIndex         -1 
               DatasheetForeThemeColorIndex              -1 
               PublishToWeb   1 
-              GUID          71-61-59-66-B9-40-44-AF
+              GUID          GUID
 >>>qry_Dummy
               Name          qry_Dummy
               Owner         admin
@@ -132,4 +132,5 @@
               OrderByOnLoad True
               PublishToWeb   1 
               Description   This is a dummy query
+              GUID          GUID
               DOL           Track name AutoCorrect info is ON!
