@@ -1,6 +1,6 @@
 Name: Name
 Type: dbMemo
-Value: C:\ae\aegit_Template\aegit_Template.accdb
+Value: C:\kd\aegit_Template\aegit_Template.accdb
 Inherited: False;
 ---
 Name: Connect
@@ -100,7 +100,7 @@ Inherited: False;
 ---
 Name: ProjVer
 Type: dbInteger
-Value: 119
+Value: 140
 Inherited: False;
 ---
 Name: HasOfflineLists
