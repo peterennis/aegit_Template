@@ -1,0 +1,26 @@
+<<<[_tblPersist]>>>
+              Index:[id]
+                            Field Name:id
+>[id]         [id], 
+              Index:[PrimaryKey]
+                            Field Name:id
+>[PrimaryKey] [id], 
+========================================
+<<<[aeItems]>>>
+========================================
+<<<[aetblThisTableHasSomeReallyLongNameButItCouldBeMuchLonger]>>>
+              Index:[id]
+                            Field Name:id
+>[id]         [id], 
+              Index:[PrimaryKey]
+                            Field Name:id
+>[PrimaryKey] [id], 
+========================================
+<<<[aetlkpStates]>>>
+              Index:[PrimaryKey]
+                            Field Name:StateCode
+>[PrimaryKey] [StateCode], 
+              Index:[State Code]
+                            Field Name:StateCode
+>[State Code] [StateCode], 
+========================================

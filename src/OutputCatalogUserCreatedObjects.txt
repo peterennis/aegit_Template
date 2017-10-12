@@ -2,7 +2,7 @@
 "Form","frm_Dummy","DateCreated"
 "Form","frm_HiddenDummy","DateCreated"
 "Module","aebasChangeLog_aegit_expClass","DateCreated"
-"Module","aebasTEST_aegit_template_expClass","DateCreated"
+"Module","aebasTEST_aegit_expClass","DateCreated"
 "Module","aegit_expClass","DateCreated"
 "Query","qry_Dummy","DateCreated"
 "Query","zzzqryCatalogUserCreatedObjects","DateCreated"

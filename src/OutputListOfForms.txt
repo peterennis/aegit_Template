@@ -1,4 +1,3 @@
-"Name","Attribute"
-"_frmPersist","Visible"
-"frm_Dummy","Visible"
-"frm_HiddenDummy","Hidden"
+[_frmPersist] False
+[frm_Dummy]   False
+[frm_HiddenDummy]           True

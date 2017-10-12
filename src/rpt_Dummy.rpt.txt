@@ -1,25 +1,27 @@
 Version =20
 VersionRequired =20
 PublishOption =1
-Begin Form
+Begin Report
+    LayoutForPrint = NotDefault
     DividingLines = NotDefault
     AllowDesignChanges = NotDefault
-    DefaultView =0
+    DateGrouping =1
+    GrpKeepTogether =1
     PictureAlignment =2
     DatasheetGridlinesBehavior =3
     GridX =24
     GridY =24
     Width =8884
     DatasheetFontHeight =11
-    ItemSuffix =2
-    Right =21870
+    ItemSuffix =1
+    Right =14610
     Bottom =12165
     DatasheetGridlinesColor =14806254
     RecSrcDt = Begin
-        0x79c31af5b448e440
+        0x7f676739b548e440
     End
     GUID = Begin
-        0xa11b716b96efe04a9311a331f31e76ec
+        0xff77baa129de814da1dfa930d5e7c81a
     End
     NameMap = Begin
     End
@@ -31,7 +33,7 @@ Begin Form
     PrtDevNames = Begin
     End
     FilterOnLoad =0
-    ShowPageMargins =0
+    FitToPage =1
     DisplayOnSharePointSite =1
     DatasheetAlternateBackColor =15921906
     DatasheetGridlinesColor12 =0
@@ -48,21 +50,7 @@ Begin Form
     End
     NoSaveCTIWhenDisabled =1
     Begin
-        Begin Label
-            BackStyle =0
-            FontSize =11
-            FontName ="Calibri"
-            ThemeFontIndex =1
-            BackThemeColorIndex =1
-            BorderThemeColorIndex =0
-            BorderTint =50.0
-            ForeThemeColorIndex =0
-            ForeTint =50.0
-            GridlineThemeColorIndex =1
-            GridlineShade =65.0
-        End
         Begin Image
-            BackStyle =0
             OldBorderStyle =0
             BorderLineStyle =0
             SizeMode =3
@@ -75,19 +63,18 @@ Begin Form
             GridlineThemeColorIndex =1
             GridlineShade =65.0
         End
-        Begin Section
-            Height =7560
-            Name ="Detail"
+        Begin PageHeader
+            Height =1500
+            Name ="PageHeaderSection"
             GUID = Begin
-                0x2403fd3d8cb42240868c0da5ec73db33
+                0xe767c3e43c02674b954fafe3e2139b94
             End
-            AutoHeight =1
-            AlternateBackColor =15921906
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
             BackThemeColorIndex =1
             Begin
                 Begin Image
+                    PictureType =2
                     Left =60
                     Top =60
                     Width =1320
@@ -95,40 +82,42 @@ Begin Form
                     BorderColor =10921638
                     Name ="img_ae"
                     OnClick ="[Event Procedure]"
-                    Picture ="adaept_logo_rg_128x128.png"
+                    Picture ="adaept_logo_rg_128x128"
                     GUID = Begin
-                        0x50e0aa9191ffc1458a4ada76d9b2d74c
+                        0x1d60bf52ada2d141aedfe189c98abbb0
                     End
                     GridlineColor =10921638
-                    ImageData = Begin
-                    End
 
                     LayoutCachedLeft =60
                     LayoutCachedTop =60
                     LayoutCachedWidth =1380
                     LayoutCachedHeight =1380
                 End
-                Begin Label
-                    OverlapFlags =85
-                    TextAlign =2
-                    Left =1500
-                    Top =540
-                    Width =1320
-                    Height =300
-                    BorderColor =8355711
-                    ForeColor =8355711
-                    Name ="Label1"
-                    Caption ="frm_Dummy"
-                    GUID = Begin
-                        0xdd9665229cb1e846beabc53feb801470
-                    End
-                    GridlineColor =10921638
-                    LayoutCachedLeft =1500
-                    LayoutCachedTop =540
-                    LayoutCachedWidth =2820
-                    LayoutCachedHeight =840
-                End
             End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            Height =7560
+            Name ="Detail"
+            GUID = Begin
+                0xb69191622d97a24fb781ced0c2d16131
+            End
+            AutoHeight =1
+            AlternateBackColor =15921906
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+        End
+        Begin PageFooter
+            Height =360
+            Name ="PageFooterSection"
+            GUID = Begin
+                0xa7e3f0424f9b8d45b711d8e85edb7e5d
+            End
+            AutoHeight =1
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
         End
     End
 End
@@ -142,5 +131,5 @@ Option Explicit
 
 Private Sub img_ae_Click()
     On Error GoTo 0
-    MsgBox "This is a frm dummy!", vbInformation
+    MsgBox "This is a rpt dummy!"
 End Sub
