@@ -23,15 +23,12 @@ Minimum requirement is Microsoft Access 2010.
 
 1. Fork aegit repo to your local workspace: https://github.com/peterennis/aegit
 2. Import adaept revision control.accdb to your database and import module **aebasChangeLog_aegit_expClass**, **aebasTEST_aegit_expClass**, and also the class module **aegit_expClass**. 
-3. In **aebasTEST_aegit_expClass** uncomment and update the public constants that define the path to your project as appropriate. The default values will export data in the project folder that was selected when cloning.
-4. Comment out the following code in **aegit_EXPORT**:
-```
-    If Application.VBE.ActiveVBProject.Name <> "aegit" Then
-        MsgBox "This is not the aegit project!", vbCritical, "aegit_EXPORT"
-        Exit Sub
-    End If
-```
-5. Run the command **aegit_EXPORT** in the Immediate Window
+
+3. Rename **TEMPLATE_EXPORT** to **[your database]_EXPORT**
+
+Update constants in the function, create appropriate files( src, xml, xmldata ) and point the paths to it.
+
+4. Run the command **[your database]_EXPORT** in the Immediate Window
 
 **NOTE:** The class is configured to EXCLUDE the aegit files from export.
   
